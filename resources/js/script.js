@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
-     direction: 'horizontal'
+     direction: 'horizontal',
+     verticalCentered: false
   });
 });
