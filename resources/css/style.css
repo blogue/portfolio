@@ -99,7 +99,7 @@ h3 {
 
 }
 
-#intro h1, #intro p, .portrait-frame {
+#intro h1, #intro p, .frame {
   display: flex;
   justify-content: center;
   align-items: center;
