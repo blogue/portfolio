@@ -95,11 +95,7 @@ h3 {
 /* INTRO SECTION */
 /* ----------------------------------- */
 
-#intro {
-
-}
-
-#intro h1, #intro p, .frame {
+#intro h1, #intro-text, .frame {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,8 +104,28 @@ h3 {
 
 #portrait {
   width: 200px;
+  max-width: 80vw;
   border-radius: 200px;
   border: solid white 3px;
+}
+
+#intro p {
+  text-align: center;
+  color: white;
+}
+
+#intro:first-of-type img {
+  max-width: 95vw;
+}
+
+#intro:last-of-type img {
+  max-width: 60vw;
+}
+
+#intro div p {
+  margin: auto;
+  width: 500px;
+  max-width: 90vw;
 }
 
 /* ----------------------------------- */
@@ -139,7 +155,7 @@ li a:visited {
 
 li a:hover,
 li a:active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #000;
 }
 
 
