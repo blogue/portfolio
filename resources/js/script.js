@@ -4,10 +4,19 @@ $(document).ready(function() {
      verticalCentered: false,
      anchors: ['intro', 'work', 'contact'],
      menu: '#menu',
-     loopBottom: true
+     loopBottom: true,
+     afterLoad: function(anchorLink, index) {
+       if(index == 2) {
+         $('#project1').show().addClass('animated bounceInLeft');
+         $('#project2').show().addClass('animated bounceInRight');
+         $('#project3').show().addClass('animated bounceInLeft');
+       }
+     }
   });
 
-  $('#project1').addClass('animated bounceInLeft');
-  $('#project2').addClass('animated bounceInLeft');
-  $('#project3').addClass('animated bounceInLeft');
+
+
+
+
+
 });
