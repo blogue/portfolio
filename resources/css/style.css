@@ -128,6 +128,24 @@ h3 {
 }
 
 /* ----------------------------------- */
+/* PROJECT SECTION */
+/* ----------------------------------- */
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  width: 65vw;
+  height: 20vh;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* ----------------------------------- */
 /* FOOTER */
 /* ----------------------------------- */
 
@@ -154,7 +172,7 @@ li a:visited {
 li a:hover,
 li a:active {
   border-radius: 20px;
-  background-color: pink;
+  background-color: antiquewhite;
 }
 
 li.active {
@@ -164,10 +182,11 @@ li.active {
 
 li a {
   padding: 0 5px;
+  color: #000;
 }
 
 /* ----------------------------------- */
-/* FOOTER */
+/* CONTACT */
 /* ----------------------------------- */
 
 #snow{
