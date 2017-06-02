@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
-     direction: 'horizontal',
-     verticalCentered: false
+     direction: 'vertical',
+     verticalCentered: false,
+     anchors: ['intro', 'work', 'contact'],
+     menu: '#menu',
+     loopBottom: true
   });
 });

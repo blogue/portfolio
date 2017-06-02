@@ -23,11 +23,12 @@
       <div class="section" id="intro" style="z-index: 3; background-color: pink;">
         <div id="intro-box">
           <div class="frame">
-            <img src="resources/css/img/signature.png" alt="">
+            <h1>Ben Logue</h1>
           </div>
           <div class="frame">
             <img id="portrait" src="resources/css/img/portrait.jpg" alt="">
           </div>
+          <h2 style="margin: 5px 0; color: white;">Guten Tag!</h2>
           <div>
             <p class="box">Prospective front-end developer with a passion for creating intuitive UI and memorable UX. I enjoy working in Node, and have a particular fondness for React.js and React Native.</p>
           </div>
@@ -36,10 +37,10 @@
           </div>
         </div>
       </div>
-      <div class="section" id="second" style="z-index: 2; background-color: orange;">
+      <div class="section" id="work" style="z-index: 2; background-color: orange;">
         <h1>Second section</h1>
       </div>
-      <div class="section" id="third" style="z-index: 1; background-color: turquoise;">
+      <div class="section" id="contact" style="z-index: 1; background-color: turquoise;">
         <div id="snow">
           <h1>Third section</h1>
         </div>
@@ -47,10 +48,10 @@
     </div>
     <footer style="z-index:9999; background-color:white; position: absolute; width: 100vw; bottom: 0;">
       <div class="footer-nav">
-        <ul>
-          <li><a href="#intro">Me</a></li>
-          <li><a href="#work">Stuff and things</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul id="menu">
+          <li data-menuanchor="intro" class="active"><a href="#intro">Me</a></li>
+          <li data-menuanchor="work"><a href="#work">Stuff and things</a></li>
+          <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </footer>
